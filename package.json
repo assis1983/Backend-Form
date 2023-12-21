@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "[my-framework] build --output public",
-    "start": "node dist/server.js",
+    "start": "node server.js",
     "dev": "tsx watch server.ts"
   },
   "keywords": [],
