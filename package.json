@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "[my-framework] build --output public",
     "start": "node dist/server.js",
     "dev": "tsx watch server.ts"
   },
@@ -21,8 +21,6 @@
     "@prisma/client": "^5.7.0",
     "fastify": "^4.24.3",
     "tsx": "^4.6.2"
-  },
-  "engines": {
-    "node": ">=18.18.0 <19.0.0"
   }
+  
 }
